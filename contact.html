@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <button class="menu-btn"><span></span></button>
+            <aside>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Quién soy</a></li>
+                    <li><a href="portfolio.html">Lo que hago</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                  </ul>
+                </nav>
+              </aside>
+    </header>
+
+    <div class="conteiner">
+        <main class="contact">
+            |<p>Si has llegado hasta aquí, es porque deseas conocerme, y saber en qué podría ayudarte.</p>
+        </main>
+    </div>
+
+    <script>
+        (function($) {
+            $(function() {
+            $('.menu-btn').click(function() {
+                $('aside').toggleClass('open');
+                $('span').toggleClass('burger');
+                $('.conteiner').toggleClass('blur');
+            });
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>

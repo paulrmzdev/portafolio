@@ -10,15 +10,44 @@
     <meta name="author" content="Paul Ramirez">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">     <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <div class="presentacion">
-        <h1>Hola, yo soy Paul Ramírez</h1>
-        <h2>Web Developer</h2>
+    <header>
+        <button class="menu-btn"><span></span></button>
+            <aside>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Quién soy</a></li>
+                    <li><a href="portfolio.html">Lo que hago</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                  </ul>
+                </nav>
+              </aside>
+      </header>
+      
+    <div class="conteiner">
+        <main class="home">
+            <div class="presentacion">
+                <h1>Hola, yo soy Paul Ramírez</h1>
+                <h2>IT consultant</h2>
+            </div>
+            <div class="portada"></div>
+        </main>
     </div>
-    <div class="portada"></div>
-    
+    <script>
+        (function($) {
+        $(function() {
+          $('.menu-btn').click(function() {
+            $('aside').toggleClass('open');
+            $('span').toggleClass('burger');
+            $('.conteiner').toggleClass('blur');
+          });
+        });
+      })(jQuery);
+      </script>
 </body>
 </html>
