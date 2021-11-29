@@ -67,6 +67,7 @@
 }
 
 .arrow {
+  margin-left: 3em;
   width: 5vw;
   height: 5vw;
   border: 2.5vw solid;
