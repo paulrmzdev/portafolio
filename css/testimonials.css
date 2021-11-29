@@ -37,7 +37,7 @@
 
 /* Increase the font-size of a span element */
 .container-testimonials span {
-  font-size: 20px;
+ font-weight: bold; 
   margin-right: 15px;
 }
 
