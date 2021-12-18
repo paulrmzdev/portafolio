@@ -15,9 +15,10 @@
 }
 
 .testimonials p{
+  text-align: justify;
   color: #fafafa;
-    font-size: 1.5em;
-    line-height: 1.5em;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 /* Style the container with a rounded border, grey background and some padding and margin */
@@ -49,7 +50,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+  }
+  .testimonials p{
+    text-align: center;
   }
 } 
 
