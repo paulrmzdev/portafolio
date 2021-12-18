@@ -5,7 +5,8 @@
 
 .testimonials {
   padding: 0;
-  margin-top: 3em;
+  margin: 5em 2em;
+
 }
 
 .testimonials h1 {
@@ -13,10 +14,16 @@
   text-align: center;
 }
 
+.testimonials p{
+  color: #fafafa;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
 /* Style the container with a rounded border, grey background and some padding and margin */
 .container-testimonials {
   background-color:  #2b2b2b;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 16px;
   margin: 16px 3em;
 }
@@ -25,7 +32,6 @@
 .container-testimonials::after {
   content: "";
   clear: both;
-  display: table;
 }
 
 /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
@@ -35,23 +41,15 @@
   border-radius: 50%;
 }
 
-/* Increase the font-size of a span element */
-.container-testimonials span {
- font-weight: bold; 
-  margin-right: 15px;
-}
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .container-testimonials {
-    text-align: center;
     margin: 16px 0;
-  }
-
-  .container-testimonials img {
-    margin: auto;
-    float: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
   }
 } 
 
