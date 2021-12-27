@@ -105,6 +105,7 @@ nav {
     display: block;
     content: "";
     transition: 0.7s;
+    box-shadow: black 2px 1px 5px;
   }
   
 .menu-btn span:before {
