@@ -62,7 +62,7 @@
 
 @media (max-width: 500px) {
     .modal {
-        position: fixed;
+        /*position: fixed;*/
     }
     .modal-conteiner{
         height: 100vh;
