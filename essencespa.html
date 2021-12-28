@@ -6,41 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essence Spa</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/galeria.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>  
+  <div class="modal">
+    <div class="modal-conteiner">
+      <img src="" class="modal-img" id="modal-img" alt="">
+    </div>
+    <div class="modal-button" id="modal-button">X</div>
+  </div>
   <header>
     <a href="portfolio.html"><button class="menu-btn"><h2 class="atras">Atrás</h2></button></a>
   </header>
   
-<div class="conteiner">
-    <div class="galery">
-        <img src="assets/img/EssenceSpa/Inicio.png" alt="">
-        <img src="assets/img/EssenceSpa/Nosotros.png" alt="">
-        <img src="assets/img/EssenceSpa/Servicios.png" alt="">
-        <img src="assets/img/EssenceSpa/Promociones.png" alt="">
-        <img src="assets/img/EssenceSpa/Experiencias.png" alt="">
-        <img src="assets/img/EssenceSpa/Contacto.png" alt="">
-        <img src="assets/img/EssenceSpa/Encuesta.png" alt="">
+  <div class="conteiner">
+      <div class="galery">
+          <img src="assets/img/EssenceSpa/Inicio.png" class="galery-img" alt="">
+          <img src="assets/img/EssenceSpa/Nosotros.png" class="galery-img" alt="">
+          <img src="assets/img/EssenceSpa/Servicios.png" class="galery-img" alt="">
+          <img src="assets/img/EssenceSpa/Promociones.png" class="galery-img" alt="">
+          <img src="assets/img/EssenceSpa/Experiencias.png" class="galery-img" alt="">
+          <img src="assets/img/EssenceSpa/Contacto.png" class="galery-img" alt="">
+          <img src="assets/img/EssenceSpa/Encuesta.png" class="galery-img" alt="">
 
-    </div>
+      </div>
 
-</div>
-
-
-    <script>
-        (function($) {
-            $(function() {
-              $('.menu-btn').click(function() {
-                $('aside').toggleClass('open');
-                $('span').toggleClass('burger');
-                $('.conteiner').toggleClass('blur');
-              });
-            });
-        })(jQuery);
-    </script>
+  </div>
+  <script src="js/menu.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 </html>
