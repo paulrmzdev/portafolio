@@ -94,6 +94,10 @@ nav {
     border: none;
   }
 
+  .menu-btn :hover{
+    transform: scale(1.2);
+    }
+
 .menu-btn span,
 .menu-btn span:before,
 .menu-btn span:after {

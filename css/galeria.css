@@ -13,7 +13,7 @@
 }
 
 .logo-galery img:hover {
-    background-color: #333;
+    transform: scale(1.2);
 }
 
 .galery {
