@@ -11,8 +11,8 @@ body {
     font-family: 'Ubuntu', sans-serif; 
 }
 
-.home {
-    
+section {
+    margin-top: 2em;
 }
 
 .presentacion {
