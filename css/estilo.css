@@ -130,11 +130,45 @@ hr {
     text-align: center;
 }
 
+.about .parrafo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
 .about p {
     text-align: justify;
     font-size: 1.5em;
     line-height: 1.5em;
     margin-bottom: 1em;
+}
+
+.personal-data {
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.personal-data ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-left: 1.8em;
+}
+
+.personal-data ul li span {
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    opacity: .8;
+    padding-right: 20px;
 }
 
 .llamada {
