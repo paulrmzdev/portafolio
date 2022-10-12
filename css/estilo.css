@@ -45,7 +45,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("../assets/img/paulbyn.png");
+    background-image: url("../assets/img/paulbyn-min.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -270,11 +270,25 @@ hr {
     height: 398px;
 }
 
+.img2 {
+    background-image: url('../assets/img/dashboard-finanzas-min.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: 5.5em;
+    background-position-y: 1.4em;
+    width: 624px; 
+    height: 398px;
+}
+
 .img img{
     width: 700px; 
 }
 
 .img1 img{
+    width: 700px; 
+}
+
+.img2 img{
     width: 700px; 
 }
 
