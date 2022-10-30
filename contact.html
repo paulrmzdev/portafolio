@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -31,11 +33,29 @@
               </aside>
     </header>
 
-    <div class="conteiner">
-        <main class="contact">
-            <h1>¡Hagamos algo genial!</h1>
-            <h3>Busco oportunidades para colaborar con empresas / agencias / personas, no solo trabajar para ellos.</h3>
+    <div class="main-container">
+        <main class="container-sm text-light mt-5 mb-3 w-50 d-flex flex-column justify-content-center">
+            <h2>¡Hagamos algo genial!</h2>
+            <h5>Mandame un mensaje o buscame por mis redes sociales para ponernos en contacto ; )</h5>
         </main>
+        <div class="container-sm w-50 text-light">
+            <form name="contact" netlify>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name">
+                    </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Yo nunca voy a compartir tu correo con nadie.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Escribe tu mensaje</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                  </div>
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+        </div>
         <div class="social">
             <a href="https://mx.linkedin.com/in/paul-ram%C3%ADrez-23615b133"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"/></a>
             <a href="https://github.com/PaulERC"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/github.png"/></a>
@@ -48,7 +68,7 @@
             $('.menu-btn').click(function() {
                 $('aside').toggleClass('open');
                 $('span').toggleClass('burger');
-                $('.conteiner').toggleClass('blur');
+                $('.main-container').toggleClass('blur');
             });
             });
         })(jQuery);
