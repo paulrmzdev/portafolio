@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quien soy</title>
-    <link rel="stylesheet" href="css/estilo.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
@@ -29,77 +31,150 @@
             </nav>
           </aside>
       </header>
-    <div class="conteiner">
-      <div class="fondo"> 
-        <div id="arrowAnim">
-          <div class="arrowSliding">
-            <div class="arrow"></div>
+      <div class="main-container">
+        <a href="index.html" style="position: fixed;right: 20px;bottom: 20px;z-index: 1;"><img src="assets/img/Firma-min.png" class="firma" alt=""></a>
+      <main class="about mb-5">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <div class="card bg-black" style="width: 550px;">
+            <div class="card rounded-4 bg-black">
+              <img src="assets/img/brush2-min.png" class="brush" alt="...">
+              <img src="assets/img/Firma-min.png" class="opacity-75" style="position: absolute;bottom: 20px;right: 20px; width: 100px;" alt="">
+            </div>
           </div>
-          <div class="arrowSliding delay1">
-            <div class="arrow"></div>
+          <div class="parrafo">
+            <h5 class="fs-1">Paul Ramírez</h5>
+            <p class="fs-5 text-light text-opacity-75">Soy diseñador, consultor TI y desarrollador web en México. Egresado del Tecnológico Marío Molina Campus El Grullo. Busco oportunidades para colaborar con empresas, agencias y personas.</p>
+            <div class="container d-flex align-items-center">
+              <a href="assets/CV-PaulRmz.pdf"  class="btn" style="max-width: 190px;">Descargar CV</a>
+            </div>
           </div>
-          <div class="arrowSliding delay2">
-            <div class="arrow"></div>
-          </div>
-          <div class="arrowSliding delay3">
-            <div class="arrow"></div>
-          </div>
-        </div>
-      </div>
-      <main class="about">
-        <div class="parrafo">
-          <h1>Hola, gusto en conocerte.</h1>
-          <p>Soy diseñador, consultor TI y desarrollador web en México. Egresado del Tecnológico Marío Molina Campus El Grullo. Freelancer, autodidacta, fan de la música y los pueblitos mágicos. Busco oportunidades para colaborar con empresas, agencias, personas, no solo trabajar para ellos.</p>
-      </div>
-      <div class="">
-        <a href="../assets/CV Paul Actualizado.pdf" download="Paul Ramirez CV.pdf" class="btn">Descargar CV</a>
-      </div>
-      <div class="container personal-data">
-        <ul class="list-1">
-          <li><h6><span class="font-weight-600">First Name</span>Paul</h6></li>
-          <li><h6><span class="font-weight-600">Last Name</span>Ramírez</h6></li>
-          <li><h6><span class="font-weight-600">Birthdate</span>19 december</h6></li>
-          <li><h6><span class="font-weight-600">Nationality</span>Mexican</h6></li>
-        </ul>
-          <ul class="list-2">
-            <li><h6><span class="font-weight-600">Freelance</span>Available</h6></li>
-            <li><h6><span class="font-weight-600">Address</span>Autlán, Jal</h6></li>
-            <li><h6><span class="font-weight-600">Experience</span>2 years</h6></li>
-            <li><h6><span class="font-weight-600">Langages</span>Spanish, English</h6></li>
-        </ul>
       </div>
     </main>
   <hr/>
-      <section class="testimonials">
-        <h1>Testimonios</h1>
-      <div class="container-testimonials">
-        <img src="assets/img/juan.jpg" alt="Avatar" style="width:90px">
-        <p>Juan Jóse.</p>
-        <p><b>Estudiante de Ingeniería Informatica.</b></p>
-        <p><i>"Buen servicio, rápido, siempre con amabilidad, y explica con mucha paciencia."</i></p>
-      </div>
-      
-      <div class="container-testimonials">
-        <img src="assets/img/img_avatar2.png" alt="Avatar" style="width:90px">
-        <p>Rebecca Flex. </p>
-        <p><b>CEO at Company.</b></p>
-        <p><i>"No one is better than John Doe."</i></p>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="llamada">
-        <h2>¿Tienes un proyecto interesante en el que necesites ayuda?</h2>
-        <h3><a href="contact.html" class="btn">Contáctame</a></h3>
+  <section class="container skillset mb-5">
+    <h5 class="fs-1 text-light text-center mb-5">Skillset</h5>
+    <div class="container text-center" style="max-width: 1040px;">
+      <div class="row">
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/adobe-photoshop--v1.png" class="icon" width="80px">
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/adobe-illustrator--v1.png" class="icon" width="80px">
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/html-5--v1.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/css3.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/javascript--v1.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/officel/160/null/php-logo.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/fluency/144/null/mysql-logo.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/git.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png" class="icon" width="80px"/>
+        </div>
+        <div class="col">
+          <img src="https://img.icons8.com/color/144/null/bootstrap.png" class="icon" width="80px">
+        </div>
       </div>
     </div>
   </section>
+  <hr/>
+  <section class="container services">
+    <h5 class="fs-1 text-light text-center">Servicios</h5>
+    <p class="text-center text-light mb-5">All Professional IT Services</p>
+      <div class="row">
+        <div class="col" style="min-width: 300px;">
+          <div class="card card-hover bg-black text-light text-center rounded-4 py-4">
+            <img src="https://img.icons8.com/ios-filled/200/ffffff/consultation.png" class="card-img-top my-3 mx-auto" alt="..." style="max-width: 80px;">
+            <div class="card-body mt-0 pt-0">
+              <h5 class="card-title">Consultoria TI</h5>
+              <p class="card-text text-light text-opacity-75">Asesoría, análisis, implementación y control de servicios y productos relacionados con las Tecnología de la Información.</p>
+              <a href="contact.html" class="btn py-0 fs-5">Solicitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="min-width: 300px;">
+          <div class="card card-hover bg-black text-light text-center rounded-4 py-4">
+            <img src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/200/ffffff/external-web-development-user-interface-smashingstocks-glyph-smashing-stocks.png" class="card-img-top my-3 mx-auto" alt="..." style="max-width: 80px;">
+            <div class="card-body mt-0 pt-0">
+              <h5 class="card-title">Desarrollo de sitio web</h5>
+              <p class="card-text text-light text-opacity-75">Páginas y sitios web únicos para ti, tu empresa o negocio, brindando una presencia en internet.</p>
+              <a href="contact.html" class="btn py-0 fs-5">Solicitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="min-width: 300px;">
+          <div class="card card-hover bg-black text-light text-center rounded-4 py-4">
+            <img src="https://img.icons8.com/external-itim2101-fill-itim2101/128/ffffff/external-web-calculate-itim2101-fill-itim2101.png" class="card-img-top my-3 mx-auto" alt="..." style="max-width: 80px;">
+            <div class="card-body mt-0 pt-0">
+              <h5 class="card-title">Desarrollo app web</h5>
+              <p class="card-text text-light text-opacity-75">Desarrollo de herramientas web para tu empresa o negocio.</p>
+              <a href="contact.html" class="btn py-0 fs-5">Solicitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="min-width: 300px;">
+          <div class="card card-hover bg-black text-light text-center rounded-4 py-4">
+            <img src="https://img.icons8.com/ios-filled/200/ffffff/windows10-personalization.png" class="card-img-top my-3 mx-auto" alt="..."  style="max-width: 80px;">
+            <div class="card-body mt-0 pt-0">
+              <h5 class="card-title">Diseño Gráfico</h5>
+              <p class="card-text text-light text-opacity-75">Diseño de logotipo, identidad para Redes Sociales, diseño de Productos Multimedia y productos publicitarios.</p>
+              <a href="contact.html" class="btn py-0 fs-5">Solicitar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Servicios end-->
+  </section>
+  <hr/>
+      <section class="container testimonios">
+        <h5 class="fs-1 text-light text-center mb-5">Testimonios</h5>
+        <div id="carouselExampleIndicators" class="carousel slide mx-auto my-5" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container d-flex flex-column text-center text-light mb-5">
+                <img src="assets/img/juan.jpg" class="rounded-circle mx-auto mb-3" alt="Avatar" style="width:150px">
+                <h5 class="mb-0">Juan Jóse.</h5>
+                <p class="text-light text-opacity-50">Estudiante de Ingeniería Informatica.</p>
+                <p class="mx-auto" style="max-width: 550px;"><i>"Buen servicio, rápido, siempre con amabilidad, y explica con mucha paciencia."</i></p>
+              </div>
+            </div>
+            <!--Testimonios-->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script>(function($) {
         $(function() {
           $('.menu-btn').click(function() {
             $('aside').toggleClass('open');
             $('span').toggleClass('burger');
-            $('.conteiner').toggleClass('blur');
+            $('.main-container').toggleClass('blur');
           });
         });
       })(jQuery);</script>
