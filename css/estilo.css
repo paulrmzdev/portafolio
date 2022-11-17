@@ -12,8 +12,12 @@ body {
 }
 
 .firma{
-    width: 150px;
+    width: 120px;
     opacity: 60%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
     transition: 0.5s;
 }
 
@@ -146,8 +150,8 @@ hr {
     .parrafo {
         text-align: justify;
     }
-    .parrafo .btn{
-        margin: auto;
+    .firma{
+        transform: scale(0.8);
     }
     .brush{
         filter: grayscale(0);
