@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://www.paulrmz.com/</loc>
+  <loc>https://paulrmz.com/</loc>
   <lastmod>2022-12-20T18:35:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.paulrmz.com/about.html</loc>
+  <loc>https://paulrmz.com/about.html</loc>
   <lastmod>2022-12-20T18:35:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.paulrmz.com/portfolio.html</loc>
+  <loc>https://paulrmz.com/portfolio.html</loc>
   <lastmod>2022-12-20T18:35:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.paulrmz.com/contact.html</loc>
+  <loc>https://paulrmz.com/contact.html</loc>
   <lastmod>2022-12-20T18:35:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
