@@ -272,7 +272,7 @@ hr {
 }
 
 .img {
-    background-image: url('../assets/img/Inicio.png');
+    background-image: url('../assets/img/dashboard-finanzas-min.png');
     background-size: 85%;
     background-repeat: no-repeat;
     background-position-x: 5.5em;
@@ -282,7 +282,7 @@ hr {
 }
 
 .img1 {
-    background-image: url('../assets/img/cms.png');
+    background-image: url('../assets/img/betterwarestore-min.png');
     background-size: 85%;
     background-repeat: no-repeat;
     background-position-x: 5.5em;
@@ -292,7 +292,17 @@ hr {
 }
 
 .img2 {
-    background-image: url('../assets/img/dashboard-finanzas-min.png');
+    background-image: url('../assets/img/Inicio.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: 5.5em;
+    background-position-y: 1.4em;
+    width: 624px; 
+    height: 398px;
+}
+
+.img3 {
+    background-image: url('../assets/img/cms.png');
     background-size: 85%;
     background-repeat: no-repeat;
     background-position-x: 5.5em;
@@ -310,6 +320,10 @@ hr {
 }
 
 .img2 img{
+    width: 700px; 
+}
+
+.img3 img{
     width: 700px; 
 }
 
